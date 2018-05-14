@@ -1,4 +1,4 @@
-package gin
+package middleware
 
 import (
 	"errors"
@@ -8,6 +8,7 @@ import (
 	"golang.org/x/time/rate"
 )
 
+// Throttle used to check the rate limit of incoming request
 func Throttle(maxEventsPerSec int, maxBurstSize int) gin.HandlerFunc {
 	limiter := rate.NewLimiter(rate.Limit(maxEventsPerSec), maxBurstSize)
 
