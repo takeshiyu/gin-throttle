@@ -1,4 +1,4 @@
-# gin-throttle
+# gin-throttle ![MIT license](https://poser.pugx.org/laravel/framework/license.svg)
 
 The `gin-throttle` is a rate limiter for [Gin framework](https://github.com/gin-gonic/gin). 
 
