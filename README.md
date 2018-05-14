@@ -1,18 +1,18 @@
 # gin-throttle
 
-`gin-throttle` is a rate limiter for [Gin framework](https://github.com/gin-gonic/gin). 
+The `gin-throttle` is a rate limiter for [Gin framework](https://github.com/gin-gonic/gin). 
 
 Original credit to [golang.org/x/time/rate](https://godoc.org/golang.org/x/time/rate), this repo makes it work with `gin.HandlerFunc` in [Gin framework](https://github.com/gin-gonic/gin).
 
 ## Usage
 
-Download and install it:
+Download and install it：
 
 ```
 go get github.com/gin-gonic/gin
 ```
 
-Import it in your code: 
+Import it in your code：
 
 ```
 import "github.com/s12i/gin-throttle"
@@ -59,3 +59,7 @@ Running 20s test @ http://localhost:8080/ping
 Requests/sec:  12528.62
 Transfer/sec:      1.12MB
 ```
+
+## License
+
+The `gin-throttle` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
